@@ -1,0 +1,14 @@
+{
+    "name": "tskshy的博客",
+    "short_name": "tskshy blog",
+    "icon": [
+        {
+            "src": "/assets/img/tskshy-336*336.jpg",
+            "type": "image/jpg",
+            "sizes": "336x336"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#0000ff"
+}
