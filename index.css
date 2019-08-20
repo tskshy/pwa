@@ -3,12 +3,14 @@ body .container {
     left: 10%;
     width: 80%;
     position: absolute;
+    font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+    font-size: 18px;
 }
 
 .container .item {
     margin-top: 16px;
     margin-bottom: 16px;
-    border: 2px solid #000000;
+    border: 2px solid rgb(189, 186, 186);
 
     /*
     1.必需。水平阴影的位置。允许负值。
@@ -30,12 +32,13 @@ body .container {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #428bca;
 }
 
 .item .date {
     float: left;
-    border-left: 2px solid #030303;
-    border-right: 2px solid #030303;
+    border-left: 2px solid #428bca;
+    border-right: 2px solid #428bca;
     width: 10%;
     text-align: center;
     margin: 1%;
@@ -54,4 +57,8 @@ body .container {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.item .website a {
+    color: #428bca;
 }
